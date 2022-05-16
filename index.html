@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="esp">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador de texto</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header><img src="./img/logo.png" alt="logo"></header>   
+  <main class="main"></main>
+  <section class="form box">
+      <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese texto aqui"> 
+      <div class="alerta"></div>
+        <img src="./img/circulo.png" alt="" class="circulo">
+        <h6>Solo letras minúsculas y sin acentos</h6>
+      </div>
+      <div class="botones">
+        <input class="boton" type="button" value="Encriptar" id="btn-encriptar">
+        <input class="boton" type="button" value="Desencriptar" id="btn-desencriptar">
+      </div>
+  </section>
+  <section>
+    <div class="rectangulo1">
+      <img src="./img/hombre.png" alt="muñeco" class="hombre">
+      <h2 id="">Ningún mensaje fue encontrado</h2>
+      <input class="text-input-salida" type="text" id="msg" placeholder="Ingresa el texto que desees encriptar o desencriptar.">
+      <input class="botoncopiar" type="button" value="Copiar" id="btn-copy" onclick="copyToClipBoard()">
+    </div>
+  </section>
+  </main>
+
+  <script src="./js/encriptar.js"></script>
+  
+
+</body>
+</html>
+

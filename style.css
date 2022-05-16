@@ -1,0 +1,176 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin: 10px;
+    
+}
+body {
+    background-image: linear-gradient(to bottom right, #8ee0f5,#f5a1d2);
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.text-input {
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+    margin-left: 106px;
+    margin-bottom: 10px;
+    border-radius: 32px;
+    border-color: #f82ba3;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    font-variant-position: initial;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+/* alerta*/
+.alerta{   
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.circulo{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 122px;
+    height: 16px;
+    width: 16px;
+    
+}
+h6 {
+    margin-top: 28px;
+    position: relative;
+    padding-left: 140px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #495057;
+    opacity: 0.8;  
+ 
+}
+/* Botones */
+.botones{
+    display: flex;
+    flex-direction: row;
+    row-gap: 3px;
+    padding-top: 13px; 
+    margin-left: 100px;
+
+}
+.boton {
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    justify-content: center;
+    position: static;
+    width: 140px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #00aeff;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #e5e5e5;
+}
+.boton:hover {
+    background: #f5a1d2;
+    text-decoration: none; 
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #f82ba3;
+}
+
+.rectangulo1 {
+    position: absolute;
+    width: 350px;
+    height: 548px;
+    left: 750px;
+    right: 40px;
+    top: 20px;
+    background: #FFFFFF;
+    border-radius: 32px;
+}
+
+.hombre{
+    height: 250px;
+    width: 250px;
+    padding-left: 32px;
+    right: 100px;
+    top: 283px;
+}
+.text-input-salida {
+    width: 320px;
+    height: 150px;
+    border-radius: 8px;
+    border-color: #00aeff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    font-variant-position: initial;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+}
+
+/* Ningún mensaje fue encontrado */
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    text-align: center;
+    color: #343A40;
+    background-color: #FFFFFF;
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.botoncopiar{
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    justify-content: center;
+    position: static;
+    margin-top: 5px;
+    margin-left: 110px;
+    width: 140px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    background: #00aeff;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #e5e5e5;
+}
+.botoncopiar:hover {
+    background: #f5a1d2;
+    text-decoration: none; 
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: #f82ba3;
+}
